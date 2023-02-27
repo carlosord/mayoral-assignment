@@ -39,8 +39,8 @@
     background-color: #fff;
     width: 100%;
     height: 100%;
-    max-width: 1200px;
-    max-height: 800px;
+    max-width: 1000px;
+    max-height: 600px;
     overflow: hidden;
     border-radius: 10px;
 }
@@ -70,14 +70,14 @@
 }
 
 .product_info_price span {
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .card_add_button {
     position: absolute;
     bottom: 30px;
     left: 0;
-    width: 40%;
+    width: 20%;
 }
 
 .card_add_button:active {
@@ -89,22 +89,22 @@
 }
 
 .product_name {
-    font-size: 40px !important;
+    font-size: 30px !important;
 }
 
 .product_detail {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .close_modal {
     position: absolute;
     background-color: #fff;
     right: 20px;
-    top: 20px;
+    top: 5px;
     font-size: 25px;
     cursor: pointer;
 }
 
 .product_description {
-    font-size: 28px !important;
+    font-size: 20px !important;
 }

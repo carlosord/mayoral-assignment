@@ -5,6 +5,7 @@ import styles_card from '@/styles/ProductCard.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image';
+import { useTranslation } from 'react-i18next';
 
 interface Props {
     product: Product;
@@ -15,6 +16,8 @@ interface Props {
 
 const ProductDetail: React.FC<Props> = ({ product, variant, onAddToCart, onChangeVariant }) => {
 
+    const { t } = useTranslation()
+
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleDetail = () => {
@@ -24,7 +27,7 @@ const ProductDetail: React.FC<Props> = ({ product, variant, onAddToCart, onChang
 
     return (
         <>
-            <span onClick={toggleDetail} className={styles.card_details}>+ Ver detalles</span>
+            <span onClick={toggleDetail} className={styles.card_details}>+ {t('product_list_details')}</span>
             { isOpen &&
                 <div className={styles.modal_product}>
                     <div className={styles.product_detail}>

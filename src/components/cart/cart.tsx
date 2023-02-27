@@ -65,7 +65,7 @@ const Cart: React.FC<Props> = ({ items, onRemoveItem, onCheckout }) => {
                             onRemove={() => { onRemoveItem(item.product.id) }}
                         />
                     ))}
-                    <p className={styles.cart_total}>{t('total')}: {total.toFixed(2)}€</p>
+                    <p className={styles.cart_total}>{t('cart_total')}: {total.toFixed(2)}€</p>
                     <button className={`btn btn-primary ${styles.cart_item_checkout}`} onClick={onCheckout}>{t('cart_checkout_button')}</button>
                 </div>
             )}
