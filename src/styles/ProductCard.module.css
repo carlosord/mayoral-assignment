@@ -10,8 +10,8 @@
   }
   
   .card div {
-    min-height: 80px;
-    margin-bottom: 0;
+    min-height: 50px;
+    margin-bottom: 10px;
   }
   
   .card span {
@@ -93,6 +93,7 @@
     bottom: 0;
     left: 0;
     padding: 0 15px;
+    margin-bottom: 20px !important;
     align-items: center;
 }
 
