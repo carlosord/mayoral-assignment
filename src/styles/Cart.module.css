@@ -1,25 +1,30 @@
 .cart {
     position: fixed;
-    top: 0;
-    width: 60px;
-    right: 200px;
+    top: 8px;
+    width: 70px;
+    height: 70px;
+    right: 230px;
     background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cart_button {
     width: 50px;
     height: 50px;
-    margin-top: 20px;
     position: relative;
     background-color: #fff;
+    background-color: transparent;
     border: 0;
 }
 
 .cart_button span {
     position: absolute;
     color: #fff;
-    right: 15px;
-    top: 2px;
+    right: 17px;
+    top: 3px;
 }
 
 .item_container {
@@ -31,6 +36,8 @@
     top: 0;
     overflow-y: auto;
     padding-top: 10px;
+    background-color: #fff;
+    opacity: 0.8;
 }
 
 .cart_item_checkout {
@@ -72,8 +79,8 @@
     .cart_button span {
         position: absolute;
         color: #fff;
-        right: 33px;
-        top: 19px;
+        right: 28px;
+        top: 20px;
     }
 
     .item_container {
