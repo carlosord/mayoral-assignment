@@ -123,5 +123,9 @@
     .card_image {
         height: 200px;
     }
+
+    .card div {
+        min-height: 35px;
+    }
     
 }

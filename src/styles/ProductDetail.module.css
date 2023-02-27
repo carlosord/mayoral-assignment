@@ -108,3 +108,44 @@
 .product_description {
     font-size: 20px !important;
 }
+
+@media(max-width:767px) {
+
+    .product_detail {
+        max-width: 400px;
+        max-height: 300px;
+    }
+
+    .product_name {
+        font-size: 18px !important;
+    }
+
+    .product_description {
+        font-size: 12px !important;
+    }
+
+    .close_modal {
+        position: absolute;
+        background-color: transparent;
+        right: 10px;
+        top: 0px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .card_add_button {
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        width: 20%;
+    }
+
+    .product_info_price {
+        margin: 5px;
+    }
+
+    .product_info {
+        margin-left: 5px;
+    }
+
+}
