@@ -1,0 +1,267 @@
+[
+    {
+        "id": 1,
+        "name": "Chaqueta de invierno",
+        "description": "Chaqueta de invierno con forro",
+        "currency": "€",
+        "variants": [
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20221031132749/23-06449-069-XL-4/sudadera-beisbolera-con-motivo-estampado-para-chico_id_23-06449-069-M-4.jpg",
+                "price": 8,
+                "discount": 20
+            },
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20221020055854/23-54407-700-XL-4/cazadora-reversible-para-nino_id_23-54407-700-M-4.jpg",
+                "price": 10,
+                "discount": 0
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Americana",
+        "description": "Chaqueta americana de lino",
+        "currency": "€",
+        "variants": [
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20230119110511/23-03451-095-XL-4/chaqueta-americana-en-lino-para-nino_id_23-03451-095-M-4.jpg",
+                "price": 15,
+                "discount": 50
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Jersey",
+        "description": "Jersey de cuello bajo de algodón",
+        "currency": "€",
+        "variants": [
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20221124081459/23-00311-031-XL-4/jersey-cuello-redondo-de-algodon-sostenible-para-nino_id_23-00311-031-M-4.jpg",
+                "price": 20,
+                "discount": 0
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Jersey de cuello redondo",
+        "description": "Jersey de cuello redondo de algodón sostenible",
+        "currency": "€",
+        "variants": [
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20221116120603/23-00311-027-XL-4/jersey-cuello-redondo-de-algodon-sostenible-para-nino_id_23-00311-027-M-4.jpg",
+                "price": 11,
+                "discount": 0
+            },
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20221116120558/23-00311-028-XL-4/jersey-cuello-redondo-de-algodon-sostenible-para-nino_id_23-00311-028-M-4.jpg",
+                "price": 11,
+                "discount": 0
+            },
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20221214140527/23-00311-029-XL-4/jersey-cuello-redondo-de-algodon-sostenible-para-nino_id_23-00311-029-M-4.jpg",
+                "price": 11,
+                "discount": 0
+            },
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20221116120548/23-00311-030-XL-4/jersey-cuello-redondo-de-algodon-sostenible-para-nino_id_23-00311-030-M-4.jpg",
+                "price": 11,
+                "discount": 0
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Chandal 2 piezas",
+        "description": "Chandal con chaqueta y pantalón de algodón",
+        "currency": "€",
+        "variants": [
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20221214140512/23-03852-091-XL-4/chandal-2-piezas-para-nino_id_23-03852-091-M-4.jpg",
+                "price": 16,
+                "discount": 0
+            },
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20221214140514/23-03852-090-XL-4/chandal-2-piezas-para-nino_id_23-03852-090-M-4.jpg",
+                "price": 16,
+                "discount": 0
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Sudadera",
+        "description": "Sudadera de cremallera con capucha de lana",
+        "currency": "€",
+        "variants": [
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20230119110542/23-03458-043-XL-4/sudadera-con-capucha-y-cremallera-para-nino_id_23-03458-043-M-4.jpg",
+                "price": 21,
+                "discount": 0
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Camisa corta",
+        "description": "Camiseta de manga corta de lino",
+        "currency": "€",
+        "variants": [
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20221214140525/23-03161-061-XL-4/camisa-de-manga-corta-con-cuello-mao-en-lino-para-nino_id_23-03161-061-M-4.jpg",
+                "price": 12,
+                "discount": 0
+            },
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20221202143623/23-03161-062-XL-4/camisa-de-manga-corta-con-cuello-mao-en-lino-para-nino_id_23-03161-062-M-4.jpg",
+                "price": 12,
+                "discount": 0
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Cazadora vaquera",
+        "description": "Cazadora de manga larga vaquera",
+        "currency": "€",
+        "variants": [
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20220926085122/12-57450-700-XL-4/cazadora-vaquera-chica_id_12-57450-700-M-4.jpg",
+                "price": 17,
+                "discount": 0
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Cazadora de cuero",
+        "description": "Cazadora de polipiel negra con cremallera lateral",
+        "currency": "€",
+        "variants": [
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20220518130126/12-57455-700-XL-4/cazadora-de-polipiel-con-cremallera-lateral-para-chica_id_12-57455-700-M-4.jpg",
+                "price": 22,
+                "discount": 0
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Cardigan",
+        "description": "Cardigan de tricot con cremallera y capucha",
+        "currency": "€",
+        "variants": [
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20230118125322/23-06435-066-XL-4/cardigan-de-tricot-con-cremallera-y-capucha-para-chica_id_23-06435-066-M-4.jpg",
+                "price": 23,
+                "discount": 0
+            },
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20230116100525/23-06435-067-XL-4/cardigan-de-tricot-con-cremallera-y-capucha-para-chica_id_23-06435-067-M-4.jpg",
+                "price": 23,
+                "discount": 0
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Camiseta sin mangas",
+        "description": "Camiseta sin mangas con volantes de algodón sostenible",
+        "currency": "€",
+        "variants": [
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20221202125121/23-06060-057-XL-4/camiseta-sin-mangas-con-volantes-de-algodon-sostenible-para-chica_id_23-06060-057-M-4.jpg",
+                "price": 22,
+                "discount": 0
+            },
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20230116100548/23-06060-056-XL-4/camiseta-sin-mangas-con-volantes-de-algodon-sostenible-para-chica_id_23-06060-056-M-4.jpg",
+                "price": 22,
+                "discount": 0
+            },
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20221229121131/23-06060-058-XL-4/camiseta-sin-mangas-con-volantes-de-algodon-sostenible-para-chica_id_23-06060-058-M-4.jpg",
+                "price": 22,
+                "discount": 0
+            },
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20221229121128/23-06060-059-XL-4/camiseta-sin-mangas-con-volantes-de-algodon-sostenible-para-chica_id_23-06060-059-M-4.jpg",
+                "price": 22,
+                "discount": 0
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Camisa corta",
+        "description": "Camiseta de manga corta con estampado",
+        "currency": "€",
+        "variants": [
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20230120134322/23-06043-059-XL-4/camiseta-manga-corta-con-motivo-estampado-y-apliques-para-chica_id_23-06043-059-M-4.jpg",
+                "price": 17,
+                "discount": 0
+            },
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20230120134318/23-06043-058-XL-4/camiseta-manga-corta-con-motivo-estampado-y-apliques-para-chica_id_23-06043-058-M-4.jpg",
+                "price": 17,
+                "discount": 0
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Pantalón vaquero",
+        "description": "Jegging vaquero skinny",
+        "currency": "€",
+        "variants": [
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20230124130112/23-00554-068-XL-4/jegging-vaquero-super-skinny-para-chica_id_23-00554-068-M-4.jpg",
+                "price": 19,
+                "discount": 0
+            },
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20221202125047/23-00554-067-XL-4/jegging-vaquero-super-skinny-para-chica_id_23-00554-067-M-4.jpg",
+                "price": 19,
+                "discount": 0
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Pantalón cropped",
+        "description": "Pantalón cropped con lazada",
+        "currency": "€",
+        "variants": [
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20221222115404/23-06583-043-XL-4/pantalon-cropped-con-lazada-de-tencel%E2%84%A2-lyocell-para-chica_id_23-06583-043-M-4.jpg",
+                "price": 30,
+                "discount": 0
+            },
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20221222115413/23-06583-042-XL-4/pantalon-cropped-con-lazada-de-tencel%E2%84%A2-lyocell-para-chica_id_23-06583-042-M-4.jpg",
+                "price": 30,
+                "discount": 0
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Conjunto 2 piezas",
+        "description": "Conjunto de dos piezas con camiseta y legging con estampado",
+        "currency": "€",
+        "variants": [
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20221202125133/23-06749-016-XL-4/conjunto-2-piezas-con-camiseta-y-legging-para-chica_id_23-06749-016-M-4.jpg",
+                "price": 14,
+                "discount": 0
+            },
+            {
+                "image": "https://assets.mayoral.com/images/t_auto_img/h_896,w_640/v20230118102313/23-06750-045-XL-4/conjunto-2-piezas-de-algodon-sostenible-para-chica_id_23-06750-045-M-4.jpg",
+                "price": 14,
+                "discount": 0
+            }
+        ]
+    }
+]

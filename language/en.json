@@ -1,0 +1,21 @@
+{
+    "search": "Search",
+    "search_placeholder": "Search something",
+
+    "sorter_price_asc": "Price: Ascendent",
+    "sorter_price_desc": "Price: Descendent", 
+    
+    "product_list_add": "Add",
+    "product_list_details": "Details",
+    "product_list_empty": "There are no results to show",
+
+    "product_card_show_options": "Show options",
+
+    "cart_add": "Add",
+    "cart_total": "Total",
+    "cart_item_price": "Price",
+    "cart_item_quantity": "Quantity",
+    "cart_checkout_button": "Checkout",
+
+    "checkout_message": "Congratulations, you have made a purchase!!!"
+}

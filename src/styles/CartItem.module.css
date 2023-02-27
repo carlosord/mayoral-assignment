@@ -1,0 +1,29 @@
+.cart_item {
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.cart_item img {
+    max-width: 70px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.item_buttons {
+    display: flex;
+    width: 100%;
+}
+
+.item_buttons button {
+    margin-right: 5px;
+    border: 0px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.item_buttons svg {
+    width: 25px;
+    height: 25px;
+}

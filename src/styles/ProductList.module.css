@@ -1,0 +1,107 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 25%));
+    width: var(--max-width);
+    max-width: 100%;
+}
+
+.grid_3 {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 33%));
+    width: var(--max-width);
+    max-width: 75%;
+}
+
+.grid_4 {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 25%));
+    width: var(--max-width);
+    max-width: 100%;
+}
+
+.list_options {
+    display: flex;
+    width: 100%;
+    max-width: var(--max-width);
+    margin-bottom: 30px;
+}
+
+.list_options div {
+    width: 70%;
+}
+
+.list_options select {
+    width: 28%;
+}
+
+.grid_buttons {
+    width: 100%;
+    max-width: var(--max-width);
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    margin-right: 2%;
+}
+
+.mobile svg {
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.browser svg {
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.mobile {
+    display: none;
+}
+.browser {
+    display: flex;
+}
+
+@media(max-width:767px) {
+
+    .mobile {
+        display: flex;
+    }
+    .browser {
+        display: none;
+    }
+
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 50%));
+        width: var(--max-width);
+        max-width: 100%;
+    }
+
+    .grid_1 {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 100%));
+        width: var(--max-width);
+        max-width: 70%;
+    }
+    
+    .grid_2 {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 50%));
+        width: var(--max-width);
+        max-width: 100%;
+    }
+
+}
+
+@media(max-width:400px) {
+
+    .mobile {
+        display: none;
+    }
+    .browser {
+        display: none;
+    }
+
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(180, 100%));
+        width: var(--max-width);
+        max-width: 70%;
+    }
+
+}

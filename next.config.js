@@ -1,8 +1,9 @@
-/**
- * @type {import('next').NextConfig}
- */
-const config = {
-  reactStrictMode: true,
-};
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+    reactStrictMode: true,
+    images: {
+        domains: ["assets.mayoral.com"]
+    }
+}
 
-module.exports = config;
+module.exports = nextConfig
