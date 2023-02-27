@@ -31,6 +31,8 @@ exponer mayor funcionalidad:
 5. Carrito de la compra (tiene en cuenta las variantes a la hora de sumar un producto o agregarlo).
 6. Componentes de modificacion de las columnas de la vista.
 
+** Si se desea se puede modificar el fichero `src/pages/api/data.json` que contiene los datos de los productos para añadir descuentos o modificar los precios.
+
 
 ## Detalles de la implementación destacables
 - Componentes estilo React:
