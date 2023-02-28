@@ -45,7 +45,7 @@ El resto de componentes de la app se utilizan siguiendo la sintaxis sugerida de 
 aquellas propiedades necesarias para renderizar en caso de modificación.
 
 - Internacionalización de la app:
-Mediante la librería `i18next` se realiza la internacionalización de la aplicación. Se utiliza un wrapper que se pone conteniendo a los componentes de la app, lo que nos permite hacer uso de las traducciones a lo largo de toda la aplicación. La aplicación está preparada para detectar el idioma del navegador y seleccionar automaticamente las traducciones que tiene que utilizar.
+Mediante la librería `i18next` se realiza la internacionalización de la aplicación. Se utiliza un wrapper que se pone conteniendo a los componentes de la app, lo que nos permite hacer uso de las traducciones a lo largo de toda la aplicación. La aplicación está preparada para modificar el idioma en el que se desean mostrar los textos en función de la opción seleccionada por el usuario.
 
 - Diseño de componentes genericos y especificaciones:
 Se diseñan componentes totalmente genericos para poder hacer uso de ellos en diferentes lugares de la app y para diferentes entidades. Uno de los 
