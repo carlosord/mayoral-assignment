@@ -6,6 +6,7 @@ import { Product } from '@/domain/product'
 import React, { useEffect, useState } from 'react'
 import Cart from '@/components/cart/cart'
 import { useTranslation } from 'react-i18next'
+import LanguageSelector from '@/components/generic/language'
 
 interface ListProductItem {
     product: Product;
@@ -29,7 +30,7 @@ export default function Home() {
         let existingItem = cartItems.find((ci: CartItem) => ci.product.id == product.id && ci.variant == variant)
         if (existingItem) {
             existingItem.quantity++;
-            setCartItems([...cartItems]) //TODO: Review
+            setCartItems([...cartItems])
         } else {
             setCartItems([...cartItems, { product: product, variant: variant, quantity: quantity }]);
         }
@@ -59,6 +60,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className={styles.main}>
+                <LanguageSelector />
                 <ProductList products={products} onAddToCart={addToCart} />
                 <Cart items={cartItems} onRemoveItem={removeFromCart} onCheckout={checkout}></Cart>
             </main>
