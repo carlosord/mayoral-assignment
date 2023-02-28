@@ -6,10 +6,11 @@
     margin-left: 4%;
     padding-left: 6rem;
     position: absolute;
+    cursor: pointer;
 }
 
 @media(max-width:767px) {
-    
+
     .language_selector {
         padding-left: 0;
     }
