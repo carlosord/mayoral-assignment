@@ -1,9 +1,8 @@
 .language_selector {
-    width: 100%;
-    max-width: var(--max-width);
     display: flex;
     justify-content: flex-start;
-    margin-left: 4%;
+    left: 0;
+    margin-left: 2%;
     padding-left: 6rem;
     position: absolute;
     cursor: pointer;
